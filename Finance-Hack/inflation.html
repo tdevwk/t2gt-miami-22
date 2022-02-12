@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Price Inflation Calculator</title>
+  </head>
+
+  <body>
+    <section class="price-selection">
+      <input id="price" type="number" placeholder="Item Price">
+    </section>
+    <hr>
+
+    <section class="years-selection">
+      <input id="years" type="number" placeholder="Number of years">
+    </section>
+    <hr>
+
+    <section class ="inflation_selection">
+      <input id="inflation_rate" type="range" value = "3" min = "1" max = "5" placeholder="Inflation Rate (percent)">
+    </section>
+    <hr>
+
+    <section class="submission">
+      <button onclick="returnText()">Submit</button>
+    </section>
+
+
+    <! – Optional JavaScript -->
+    <script src="inflation_input.js"></script>
+  </body>
+
+</html>
