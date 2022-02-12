@@ -6,6 +6,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    margin-top:10px;
+}
+
 #wrapper {
     margin-left:auto;
     margin-right:auto;
@@ -56,7 +60,7 @@ body {
 h1{
   font-size: 80px;
   font-family: 'Roboto', sans-serif;
-  background: -webkit-linear-gradient(180deg, #253476 5.73%, gold 32.29%, rgb(3, 73, 3) 78.65%);
+  background: -webkit-linear-gradient(180deg, #253476 5.73%, #8b73ff 32.29%, rgb(3, 73, 3) 78.65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
@@ -72,7 +76,7 @@ h1{
 h2 {
   padding-left: 1vw;
   text-align: center;
-  color: #253476;
+  color: #8b73ff;
   font-size: 1rem;
 }
 
@@ -84,13 +88,13 @@ h3 {
   font-weight: normal;
   font-size: 1.5em;
   letter-spacing: 0.03em;
-  color: #4BB8DB;
+  color: #02D2AD;
 }
 
 h4 {
   font-size: 40px;
   font-family: 'Roboto', sans-serif;
-  background: -webkit-linear-gradient(180deg, #253476 5.73%, rgb(43, 163, 43) 32.29%, rgb(3, 73, 3) 78.65%);
+  background: -webkit-linear-gradient(180deg, #8b73ff 5.73%, rgb(43, 163, 43) 32.29%, rgb(3, 73, 3) 78.65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -157,12 +161,12 @@ h4 {
   display: inline-block;
   width: 30%;
   text-align: center;
-  background: -webkit-linear-gradient(180deg, #253476 5.73%, rgb(43, 163, 43) 32.29%, rgb(3, 73, 3) 78.65%);
+  background: -webkit-linear-gradient(180deg, #8b73ff 5.73%, rgb(43, 163, 43) 32.29%, rgb(3, 73, 3) 78.65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: 2px solid;
   border-image-slice: 1;
-  border-image-source: linear-gradient(180deg, #253476 0%, rgb(43, 163, 43) 39.06%, rgb(3, 73, 3) 100%);
+  border-image-source: linear-gradient(180deg, #8b73ff 0%, rgb(43, 163, 43) 39.06%, rgb(3, 73, 3) 100%);
   padding: 15px 0px;
   transition-duration: 0.4s;
   margin-right: 20px;
@@ -171,7 +175,7 @@ h4 {
 }
 
 .buttons:hover {
-  box-shadow: 0px 2px 8px 0px #4BB8DB;
+  box-shadow: 0px 2px 8px 0px #02D2AD;
 }
 
 
@@ -186,3 +190,18 @@ h4 {
 .flex-child:first-child {
   margin-right:10px;
 }
+
+/*
+.submission{
+  background-color:#04604F;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+*/
