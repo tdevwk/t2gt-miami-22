@@ -1,20 +1,16 @@
 function returnText(){
     let savings_amount = document.getElementById("savings").value;
-    alert(savings_amount)
 
     let years = document.getElementById("years").value;
-    alert(years)
 
     let inflation = document.getElementById("inflation_rate").value;
     inflation_percentage = inflation * 0.01
-    alert(inflation_percentage)
 
     let savings_inflated = parseFloat(savings_amount)
     for (let i = 0; i < years; i++) {
       savings_inflated -= (savings_inflated * inflation_percentage)
     }
     savings_inflated = savings_inflated.toFixed(2)
-    alert(savings_inflated)
 
     let return_on_investment = document.getElementById("roi").value
     roi_percentage = return_on_investment * 0.01
@@ -25,7 +21,6 @@ function returnText(){
       savings_roi_adjusted += (savings_roi_adjusted * roi_percentage) 
     }
     savings_roi_adjusted = savings_roi_adjusted.toFixed(2)
-    alert(savings_roi_adjusted)
 
     let investment_inflation_adjusted = parseFloat(savings_roi_adjusted)
     alert(investment_inflation_adjusted)
@@ -33,7 +28,6 @@ function returnText(){
       investment_inflation_adjusted -= (investment_inflation_adjusted * inflation_percentage)
     }
     investment_inflation_adjusted = investment_inflation_adjusted.toFixed(2)
-    alert(investment_inflation_adjusted)
 
   var inflationParagraph = document.createElement("p");
   inflationParagraph.style.color = "white"; //creates a new paragraph element
