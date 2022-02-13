@@ -1,4 +1,4 @@
-# Tech Together Miami -Feb. 2022 
+# Fiat: Calculate Inflation, ROI, and House Downpayment all in one site!  
 
 This project was started at Tech Together Miami 2022.
 
