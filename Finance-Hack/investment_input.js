@@ -16,14 +16,12 @@ function returnText(){
     roi_percentage = return_on_investment * 0.01
     
     let savings_roi_adjusted = parseFloat(savings_amount)
-    alert(savings_roi_adjusted)
     for (let i = 0; i < years; i++) {
       savings_roi_adjusted += (savings_roi_adjusted * roi_percentage) 
     }
     savings_roi_adjusted = savings_roi_adjusted.toFixed(2)
 
     let investment_inflation_adjusted = parseFloat(savings_roi_adjusted)
-    alert(investment_inflation_adjusted)
     for (let i = 0; i < years; i++) {
       investment_inflation_adjusted -= (investment_inflation_adjusted * inflation_percentage)
     }

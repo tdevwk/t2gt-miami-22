@@ -72,6 +72,12 @@ h1{
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
+h1 {
+  padding-left: 1vw;
+  text-align: center;
+  color: #fbb13c;
+  
+}
 
 h2 {
   padding-left: 1vw;
